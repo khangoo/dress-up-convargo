@@ -26,3 +26,7 @@ footer {
   height: 100px;
   background: #555;
   }*/
+body{
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+}
