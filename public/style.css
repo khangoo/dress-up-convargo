@@ -1,0 +1,28 @@
+header {
+    padding: 0.5em;
+    color: white;
+    background-color: #800000;
+    /*background-image: url("convargo.png");
+    background-repeat: no-repeat;
+    background-position: right;*/
+    clear: left;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+  }
+
+footer {
+    padding: 0.5em;
+    color: white;
+    background-color: #800000;
+    clear: left;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+  }
+/*.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  }*/
