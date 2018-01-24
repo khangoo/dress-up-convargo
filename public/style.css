@@ -2,9 +2,10 @@ header {
     padding: 0.5em;
     color: white;
     background-color: #800000;
-    /*background-image: url("convargo.png");
+    background-image: url("convargo.png");
     background-repeat: no-repeat;
-    background-position: right;*/
+    background-position: right;
+    background-size: 80px 80px;
     clear: left;
     text-align: center;
     font-size: 15px;
@@ -24,13 +25,14 @@ footer {
     font-size: 15px;
     font-family: monospace;
   }
-/*.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
-  }*/
+
 body{
   background: url("background.png") no-repeat center center fixed;
   background-size: cover;
+}
+
+div{
+  /*width: 11em;
+  border: 1px solid #000000;
+  word-wrap: break-word; */
 }
