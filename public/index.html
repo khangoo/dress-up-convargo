@@ -2,16 +2,24 @@
 <html>
   <header>
     <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS/HTML Workshop with Convargo</title>
-    <h1>Dollar dollar bills yo</h1>
   </header>
   <body>
-    <div id="trucker" padding-top: 100px;>
+    <ul class="topnav">
+      <li><img src="convargo_logo_black.png" id="logo"></li></li>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">Calculator</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="right"><a href="#about">About</a></li>
+    </ul>
+    <div id="trucker" class="flex-container">
       <input class="name" type="text" placeholder="Trucker name"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
       <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
     </div>
-    <div id="shipper">
+    <div id="shipper" class="flex-container">
       <input class="name" type="text" placeholder="Shipper name"/>
       <input class="distance" type="number" placeholder="Distance in km"/>
       <input class="volume" type="number" placeholder="Volume in m3"/>

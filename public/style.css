@@ -1,16 +1,16 @@
-header {
-    padding: 0.5em;
+/*header {
+    padding: 0.2em;
     color: white;
     background-color: #800000;
-    background-image: url("convargo.png");
+    background-image: url("convargo_logo_black.png");
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px 80px;
+    background-position: left;
+    background-size: 300px 60px;
     clear: left;
     text-align: center;
     font-size: 15px;
-    font-family: monospace;
-  }
+    font-family: 'Montserrat', sans-serif;
+  }*/
 
 footer {
     position: absolute;
@@ -29,10 +29,44 @@ footer {
 body{
   background: url("background.png") no-repeat center center fixed;
   background-size: cover;
+  margin: 0px;
 }
 
-div{
-  /*width: 11em;
-  border: 1px solid #000000;
-  word-wrap: break-word; */
+#logo{
+    position:absolute;
+    top:0px;
+    left:10px;
+    width:200px;
+    height:40px;
+    overflow:hidden;
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #800000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li a.active {background-color: auto;}
+
+ul.topnav li {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
 }
